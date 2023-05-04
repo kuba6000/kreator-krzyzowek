@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(71, 71, 71);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+#main{
+    border: 1px gray solid;
+    border-radius: 10px;
+    width: 700px;
+    margin: auto;
+    padding: 10px;
+    height: 40em;
+    background-color: gray;
+}
