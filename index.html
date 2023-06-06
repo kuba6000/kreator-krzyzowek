@@ -6,15 +6,25 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
-<body>
+<body onload="onBodyLoad();">
     <header>Kreator krzyżówek</header>
     <section id="main">
-        Pytania:<br>
-        <section id="pytaniaodpowiedzi">
+        <h1 class="center">Pytania:</h1>
+        <section id="pytaniaodpowiedzi" class="center">
             
         </section>
-        <span id="nrodpowiedzi">1</span>. <input type="text" name="" id="pytanieinput"> odp: <input type="text" name="" id="odpowiedzinput"> <button onclick="dodajpytanie();">Dodaj</button><br>
-        <button onclick="create();">Stwórz krzyżówkę</button>
+        <p class="center">
+            <span id="nrodpowiedzi">1</span>. <input type="text" name="" id="pytanieinput"> odp: <input type="text" name="" id="odpowiedzinput"> <button onclick="dodajpytanie();">Dodaj</button><br>
+            <br>
+            <button onclick="create();" class="button_big">Stwórz krzyżówkę</button>
+        </p>
+        <p class="center">
+            <br />
+            <button onclick="sharequestions();" class="button_big">Udostępnij pytania</button>
+            <br />
+            
+            <a href="?" id="linkudostepnienia"></a>
+        </p>
     </section>
 </body>
 </html>
